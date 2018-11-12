@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" dir="ltr" >
+<head>
+ 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Portal da Recepção | São Miguel Saúde</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+  <link rel="stylesheet" href="template.css" type="text/css" />
+  
+</head>
+
+<body id="minwidth-body">
+<div id="border-top" class="h_blue">
+	
+<style>
+ #logo {
+ position: absolute;
+ top: 8px;
+ left: 10px;
+ }
+</style>
+	
+	<div id="logo"><img src="images/logo.png" style="width:180px;" /></div>
+	<br /><br /><br />
+  
+  <style>
+   #pesquisa{
+    position: absolute;
+    top: 18px;
+	right: 40px;
+   }
+   
+   .senha{width:150px; height:45px; background:url('menu/icon-16-viewsite.png') no-repeat; background-position:3px;}
+   .logout{width:90px; height:45px; background:url('menu/icon-16-logout.png') no-repeat; background-position:3px;}
+  </style>
+  
+<div id="header-box">
+<a href="#" onclick="window.open('updateSenha.php', 'Alterar Senha', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=YES, TOP=50%, LEFT=50%, WIDTH=1000, HEIGHT=500');">
+<div class="senha" id="senha" style="position:absolute; top:10px; right:110px; cursor:pointer; border:1px solid #aaa; border-radius:10px;">
+	<p style="margin-left:50px; margin-top:12px;">Alterar Senha</p>
+</div>
+</a>
+
+<a href="logout.php" style="font-style:Arial; font-size:14px; color:#777; link-style:none;">
+<div class="logout" id="logout" style="position:absolute; top:10px; right:10px; cursor:pointer; border:1px solid #aaa; border-radius:10px;">
+	<p style="margin-left:50px; margin-top:12px;">Sair</p>
+</div>
+</a>
+</div>
+<br>
+<section>
+
+<div>
+	<h1>Exportação de Relatório</h1><br>
+
+  <form action="relatorio.php" method="POST">
+    Guichê:
+    <input type="text" name="usuario" id="usuario"><br><br>
+    Data inicial:
+    <input type="text" name="data1" id="data1" placeholder="DD/MM/AAAA"><br><br>
+    Data final:
+    <input type="text" name="data2" id="data2" placeholder="DD/MM/AAAA"><br><br>
+  <button style="background:#02C456; color:#FFF; font-weight:bold; width:200px; height:80px; cursor:pointer;" type="submit">Exportar relatório</button>
+  </form>
+  <br>
+  <hr><br>
+		<a href="relatorio2.php"><input type="button" style="background:#02C456; color:#FFF; font-weight:bold; width:200px; height:80px; cursor:pointer;" value="Exportar relatório completo" /></a>
+		
+	</div>
+</section>
+
+</html>

@@ -1,0 +1,96 @@
+
+
+
+#senha{		
+ position:absolute;
+	top:5%;
+	left:47%;
+    size:20; 
+	font-size: 5.9vw;	
+	margin-left:30%;  
+	color:#003974;	
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.034), 0 17px 15px 0 rgba(0, 0, 0, 0.055);
+	width: 22.2%;
+	height: 63%;
+	padding-top:5%;
+	text-align: center;
+}
+
+
+#guiche{	
+position:absolute;
+	top:47%;
+	left:79.3%;
+	font-size: 5.9vw; 
+	color:#00adee;
+	text-align: center;
+	
+}
+
+#cont_senha{	
+position:absolute;
+	top:23%;
+	left:80%;
+	font-size: 5.9vw; 
+	color:#707070;
+	text-align: center;
+}
+
+#hr{	
+	position:absolute;
+		top:33%;
+		left:80%;
+		color:#707070;
+		text-align: center;
+		width: 16%;
+	}
+
+#cont_guiche{	
+position:absolute;
+	top:56%;
+	left:86%;
+	font-size: 5.9vw; 
+	color:#707070;
+	text-align: center;
+   	
+}
+
+
+
+#data-hora{
+	color: #707070;
+	margin-bottom: 60px;
+}
+
+#Limpar{
+		
+position:absolute;
+	top:6;
+	left:1250;
+     	
+}
+
+
+#mesa1{
+		
+position:absolute;
+	top:6;
+	left:1185;
+     	
+}
+
+#mesa2{
+		
+position:absolute;
+	top:6;
+	left:1120;
+     	
+}
+
+#mesa3{
+		
+position:absolute;
+	top:6;
+	left:1056;
+     	
+}

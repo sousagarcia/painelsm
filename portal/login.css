@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #555;
+	font-family: 'DroidSerifRegular', Sans, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:hover {
+	text-decoration: underline;
+}
+html, body { height: 100%; }
+p { margin-bottom: 10px; }
+
+#overHeader {
+	background: #575556;
+	height: 15px;
+	border-bottom: 2px solid white;
+}
+
+#miniHeader {
+	border-top: 2px solid #0000FF;
+	border-bottom: 1px solid #e7e7e7;
+	margin: 0 auto;
+	padding: 30px 0;
+	height: 25px;
+}
+#miniHeader #logo {
+	width: 188px;
+	height: 37px;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+#header {
+	border-top: 2px solid #0000FF;
+}
+
+#header #logo {
+	width: 249px;
+	height: 142px;
+	margin: 40px auto;
+}
+
+#miniHeader #menubox {
+	padding-top: 20px !important;
+	height: 35px !important;
+}
+
+#miniHeader #navigationBar {
+	border-bottom: 0px;
+}
+
+#navigationBar {
+	height: 40px;
+	border-bottom: 1px solid #e7e7e7;
+}
+#navigationBar #menubox {
+	width: 960px;
+	height: 40px;
+	border-bottom: 1px solid #0000FF;
+	margin: 0 auto;
+}
+#navigationBar #menubox #menu {
+	list-style: none;
+}
+#navigationBar #menubox #menu li {
+	float: left;
+}
+#navigationBar #menubox #menu li a {
+	color: #575556;
+	font-size: 17px;
+	padding: 3px 9px;
+}
+#navigationBar #menubox #menu li a:hover {
+	background: #FFCC00;
+}
+
+.error {
+  border: 1px solid #ffbbbb;
+  background-color: #ffdddd;
+  text-align:center;
+  margin: 0 auto 15px;
+}
+
+#footer {
+	background: #545454 top left no-repeat;
+	padding: 30px;
+}
+#footer #footMsg {
+	font-size: 25px;
+	color: silver;
+}
+#footer #footCopyright {
+	clear: both;
+	color: silver;
+	font-size: 12px;
+}
+
+input {
+    height: 25px;
+	line-height: 25px;
+	padding: 0 1%;
+	border: 1px solid #CCC;
+	outline: none;
+}
+
+textarea {
+    height: 25px;
+	line-height: 25px;
+	width:98%;
+	padding: 0 1%;
+	border: 1px solid #CCC;
+	outline: none;
+}
+
+select {
+    height: 25px;
+	line-height: 25px;
+	width:98%;
+	padding: 0 1%;
+	border: 1px solid #CCC;
+	outline: none;
+}
+
+.titulo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000;
+}
+
+.texto {
+	font-size: 11px;
+	color: #666;
+	border: thin dotted #FFF;
+	top: 4px;
+	vertical-align: top;
+	position: static;
+	padding: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #000; }
+
+.style3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000;
+}
