@@ -116,7 +116,7 @@
                                                         <div class="bottom-padding" style="margin-bottom: 0px; line-height: 15px; font-size: 15px;">&nbsp;</div>
 														<section style="margin-top:-40px;">
 														
-														<iframe class="video" scrolling="no" src="" frameborder="0" style="margin-top: 3%; overflow:hidden; height:600px; width:76%" allowfullscreen="" ></iframe>
+														<iframe class="video" scrolling="no" src="https://tvaovivoonline.com/canais/bobo.php" frameborder="0" style="margin-top: 3%; overflow:hidden; height:600px; width:76%" allowfullscreen="" ></iframe>
 															<!-- 
 															http://portalzuca.com/canais/bobo.php
 															https://tvaovivoonline.com/canais/bobo.php
